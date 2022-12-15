@@ -7,10 +7,10 @@ Go To Login Page
   New Page        http://localhost:3000
 
 Fill Credentials
-  [Arguments]    ${email}    ${pass}
+  [Arguments]    ${email}    ${password}
     
   Fill Text    css=input[name=email]    ${email}
-  Fill Text    css=input[name=password]     ${pass}
+  Fill Text    css=input[name=password]     ${password}
 
 Submit Credentials
   Click        css=button >> text=Entrar no sistema
