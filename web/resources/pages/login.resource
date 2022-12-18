@@ -3,8 +3,11 @@ Library    Browser
 
 *** Keywords ***
 Go To Login Page
-  New Browser     headless=False    browser=chromium
-  New Page        http://localhost:3000
+  # Para rodar regressivo multibrowser:
+  # New Browser             headless=False    browser=${BROWSER}
+  New Browser             headless=False    browser=chromium
+  New Page                http://localhost:3000
+  Set Viewport Size       1280    720
 
 Fill Credentials
   [Arguments]    ${email}    ${password}
