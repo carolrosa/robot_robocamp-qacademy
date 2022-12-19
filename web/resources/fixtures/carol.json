@@ -1,0 +1,13 @@
+{
+  "student": {
+    "feet_tall": 1.60,
+    "weight": 60,
+    "age": 32,
+    "email": "carol@ymail.com",
+    "name": "Carol Rosa"
+  },
+  "enroll": {
+    "plan": "Smart"
+  },
+  "question": "Como faço para ganhar massa muscular?"
+}
